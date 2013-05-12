@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221EBB3C173FC67700708EEE /* SSTOHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */; };
 		22FB76E0173E7247005B8353 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76DF173E7247005B8353 /* UIKit.framework */; };
 		22FB76E2173E7247005B8353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E1173E7247005B8353 /* Foundation.framework */; };
 		22FB76E4173E7247005B8353 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E3173E7247005B8353 /* CoreGraphics.framework */; };
@@ -35,7 +36,6 @@
 		22FB7725173E750A005B8353 /* eventsUpper.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7724173E750A005B8353 /* eventsUpper.png */; };
 		22FB7727173E750E005B8353 /* boothUpper.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7726173E750E005B8353 /* boothUpper.png */; };
 		22FB7729173E7513005B8353 /* feedbackUpper.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7728173E7513005B8353 /* feedbackUpper.png */; };
-		22FB7735173E796E005B8353 /* SSTOHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB7734173E796E005B8353 /* SSTOHThirdViewController.m */; };
 		22FB7738173E7A88005B8353 /* SSTOHForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB7737173E7A88005B8353 /* SSTOHForthViewController.m */; };
 		22FB773B173E7A8F005B8353 /* SSTOHFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB773A173E7A8F005B8353 /* SSTOHFifthViewController.m */; };
 		22FB773E173E7BF4005B8353 /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB773D173E7BF4005B8353 /* Globe.png */; };
@@ -61,6 +61,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221EBB3A173FC67700708EEE /* SSTOHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHThirdViewController.h; sourceTree = "<group>"; };
+		221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHThirdViewController.m; sourceTree = "<group>"; };
 		22FB76DC173E7247005B8353 /* Open House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB76DF173E7247005B8353 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FB76E1173E7247005B8353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,8 +97,6 @@
 		22FB7724173E750A005B8353 /* eventsUpper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventsUpper.png; sourceTree = "<group>"; };
 		22FB7726173E750E005B8353 /* boothUpper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boothUpper.png; sourceTree = "<group>"; };
 		22FB7728173E7513005B8353 /* feedbackUpper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedbackUpper.png; sourceTree = "<group>"; };
-		22FB7733173E796E005B8353 /* SSTOHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTOHThirdViewController.h; path = ../SSTOHThirdViewController.h; sourceTree = "<group>"; };
-		22FB7734173E796E005B8353 /* SSTOHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTOHThirdViewController.m; path = ../SSTOHThirdViewController.m; sourceTree = "<group>"; };
 		22FB7736173E7A88005B8353 /* SSTOHForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHForthViewController.h; sourceTree = "<group>"; };
 		22FB7737173E7A88005B8353 /* SSTOHForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHForthViewController.m; sourceTree = "<group>"; };
 		22FB7739173E7A8F005B8353 /* SSTOHFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHFifthViewController.h; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 				22FB76FB173E7247005B8353 /* SSTOHFirstViewController.m */,
 				22FB7701173E7247005B8353 /* SSTOHSecondViewController.h */,
 				22FB7702173E7247005B8353 /* SSTOHSecondViewController.m */,
-				22FB7733173E796E005B8353 /* SSTOHThirdViewController.h */,
-				22FB7734173E796E005B8353 /* SSTOHThirdViewController.m */,
+				221EBB3A173FC67700708EEE /* SSTOHThirdViewController.h */,
+				221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */,
 				22FB7736173E7A88005B8353 /* SSTOHForthViewController.h */,
 				22FB7737173E7A88005B8353 /* SSTOHForthViewController.m */,
 				22FB7739173E7A8F005B8353 /* SSTOHFifthViewController.h */,
@@ -387,12 +387,12 @@
 				22FB76F0173E7247005B8353 /* SSTOHAppDelegate.m in Sources */,
 				22FB76FC173E7247005B8353 /* SSTOHFirstViewController.m in Sources */,
 				22FB7703173E7247005B8353 /* SSTOHSecondViewController.m in Sources */,
-				22FB7735173E796E005B8353 /* SSTOHThirdViewController.m in Sources */,
 				22FB7738173E7A88005B8353 /* SSTOHForthViewController.m in Sources */,
 				22FB773B173E7A8F005B8353 /* SSTOHFifthViewController.m in Sources */,
 				22FB7741173E7C64005B8353 /* SSTOHAboutViewController.m in Sources */,
 				22FB775C173E964F005B8353 /* SSTOHTableViewController.m in Sources */,
 				22FB77A2173F3965005B8353 /* SSTOHCreatorsViewController.m in Sources */,
+				221EBB3C173FC67700708EEE /* SSTOHThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
