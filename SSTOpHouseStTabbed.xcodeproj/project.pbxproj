@@ -61,7 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22FB76DC173E7247005B8353 /* SSTOpHouseStTabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSTOpHouseStTabbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FB76DC173E7247005B8353 /* Open House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB76DF173E7247005B8353 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FB76E1173E7247005B8353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22FB76E3173E7247005B8353 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -153,7 +153,7 @@
 		22FB76DD173E7247005B8353 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22FB76DC173E7247005B8353 /* SSTOpHouseStTabbed.app */,
+				22FB76DC173E7247005B8353 /* Open House.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 			);
 			name = "Open House";
 			productName = SSTOpHouseStTabbed;
-			productReference = 22FB76DC173E7247005B8353 /* SSTOpHouseStTabbed.app */;
+			productReference = 22FB76DC173E7247005B8353 /* Open House.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -523,6 +523,7 @@
 				22FB770C173E7247005B8353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
