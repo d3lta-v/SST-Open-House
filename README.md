@@ -7,18 +7,20 @@ SST Open House Storyboarded Tabbed
 
 SYNOPSIS:
 The App contains multiple sections, which in this case include:
+
 1. Welcome Screen
-	1(a). About Button: About the Creators and About the School contained inside a view
+	* About Button: About the Creators and About the School contained inside a view
 2. Maps
-	2(a). Map of Level 1
-	2(b). Map of Level 2
-	2(c). Map of Level 4
-	2(d). Opens the Google Maps application using the Google Maps SDK URL Scheme (Incomplete)
+	* Map of Level 1
+	* Map of Level 2
+	* Map of Level 4
+	* Opens the Google Maps application using the Google Maps SDK URL Scheme (Incomplete)
 3. Events list (Incomplete)
 4. Photo Booth (Incomplete due to lack of resources and a coder)
-	4(a). Picture Taking
-	4(b). Open from Camera Roll and edit
+	* Picture Taking
+	* Open from Camera Roll and edit
 5. Feedback (Partially complete)
+
 
 AVAILABILITY:
 The App is only usable on the UNIX Darwin ARM iOS platform
@@ -42,7 +44,7 @@ UITableViewControllers are incomplete and will crash the app upon loading of
 the 'About our School' view
 
 FINAL NOTE:
-Yes I wrote it in the format of a *nix command manual page
+Yes I wrote it in the format of a UNIX command manual page
 
 Copyright (C) StatiX Industries and Team Up.Grade
 This is released under the GNU GPL v3 (included in the project)
