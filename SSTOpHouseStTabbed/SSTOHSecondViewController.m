@@ -65,7 +65,13 @@
 
 -(IBAction)loadMaps:(id)sender
 {
-    
+    NSString *title = @"School of Science and Technology";
+    float latitude = 1.313223;
+    float longitude = 103.773562;
+    int zoom = 16;
+    NSString *stringURL = [NSString stringWithFormat:@"http://maps.google.com/maps?q=%@@%1.6f,%1.6f&z=%d", title, latitude, longitude, zoom];
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
 }
 
 - (void)viewDidLoad
