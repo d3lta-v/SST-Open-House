@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		221EBB3C173FC67700708EEE /* SSTOHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */; };
 		2298E56B17409233009C93F3 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2298E56A17409233009C93F3 /* home.png */; };
+		22D8C3181740D240004D41A6 /* L1Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3141740D240004D41A6 /* L1Button.png */; };
+		22D8C3191740D240004D41A6 /* L12Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3151740D240004D41A6 /* L12Button.png */; };
+		22D8C31A1740D240004D41A6 /* L123Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3161740D240004D41A6 /* L123Button.png */; };
+		22D8C31B1740D240004D41A6 /* L1234Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3171740D240004D41A6 /* L1234Button.png */; };
 		22FB76E0173E7247005B8353 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76DF173E7247005B8353 /* UIKit.framework */; };
 		22FB76E2173E7247005B8353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E1173E7247005B8353 /* Foundation.framework */; };
 		22FB76E4173E7247005B8353 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E3173E7247005B8353 /* CoreGraphics.framework */; };
@@ -18,7 +22,6 @@
 		22FB76F2173E7247005B8353 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB76F1173E7247005B8353 /* Default.png */; };
 		22FB76F4173E7247005B8353 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB76F3173E7247005B8353 /* Default@2x.png */; };
 		22FB76F6173E7247005B8353 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB76F5173E7247005B8353 /* Default-568h@2x.png */; };
-		22FB76F9173E7247005B8353 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FB76F7173E7247005B8353 /* MainStoryboard.storyboard */; };
 		22FB76FC173E7247005B8353 /* SSTOHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB76FB173E7247005B8353 /* SSTOHFirstViewController.m */; };
 		22FB7703173E7247005B8353 /* SSTOHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB7702173E7247005B8353 /* SSTOHSecondViewController.m */; };
 		22FB7712173E73EF005B8353 /* maps2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7711173E73EF005B8353 /* maps2.png */; };
@@ -49,16 +52,16 @@
 		22FB779D173F330C005B8353 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB779C173F330C005B8353 /* Icon@2x.png */; };
 		22FB779F173F3508005B8353 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB779E173F3508005B8353 /* Icon.png */; };
 		22FB77A2173F3965005B8353 /* SSTOHCreatorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB77A1173F3965005B8353 /* SSTOHCreatorsViewController.m */; };
-		22FB77A4173F3F78005B8353 /* L1Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB77A3173F3F78005B8353 /* L1Button.png */; };
-		22FB77A7173F3F86005B8353 /* L12Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB77A6173F3F86005B8353 /* L12Button.png */; };
-		22FB77A9173F3F8C005B8353 /* L123Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB77A8173F3F8C005B8353 /* L123Button.png */; };
-		22FB77AB173F40F6005B8353 /* L1234Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB77AA173F40F6005B8353 /* L1234Button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		221EBB3A173FC67700708EEE /* SSTOHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHThirdViewController.h; sourceTree = "<group>"; };
 		221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHThirdViewController.m; sourceTree = "<group>"; };
 		2298E56A17409233009C93F3 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		22D8C3141740D240004D41A6 /* L1Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1Button.png; sourceTree = "<group>"; };
+		22D8C3151740D240004D41A6 /* L12Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L12Button.png; sourceTree = "<group>"; };
+		22D8C3161740D240004D41A6 /* L123Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L123Button.png; sourceTree = "<group>"; };
+		22D8C3171740D240004D41A6 /* L1234Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1234Button.png; sourceTree = "<group>"; };
 		22FB76DC173E7247005B8353 /* Open House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB76DF173E7247005B8353 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FB76E1173E7247005B8353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,7 +75,6 @@
 		22FB76F1173E7247005B8353 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		22FB76F3173E7247005B8353 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		22FB76F5173E7247005B8353 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		22FB76F8173E7247005B8353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		22FB76FA173E7247005B8353 /* SSTOHFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTOHFirstViewController.h; sourceTree = "<group>"; };
 		22FB76FB173E7247005B8353 /* SSTOHFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTOHFirstViewController.m; sourceTree = "<group>"; };
 		22FB7701173E7247005B8353 /* SSTOHSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTOHSecondViewController.h; sourceTree = "<group>"; };
@@ -111,10 +113,6 @@
 		22FB779E173F3508005B8353 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		22FB77A0173F3964005B8353 /* SSTOHCreatorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHCreatorsViewController.h; sourceTree = "<group>"; };
 		22FB77A1173F3965005B8353 /* SSTOHCreatorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHCreatorsViewController.m; sourceTree = "<group>"; };
-		22FB77A3173F3F78005B8353 /* L1Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = L1Button.png; path = "/Users/panziyue/Documents/13 ICT TDP/L1Button.png"; sourceTree = "<absolute>"; };
-		22FB77A6173F3F86005B8353 /* L12Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = L12Button.png; path = "../../../../Users/panziyue/Documents/13 ICT TDP/L12Button.png"; sourceTree = "<group>"; };
-		22FB77A8173F3F8C005B8353 /* L123Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = L123Button.png; path = "../../../../Users/panziyue/Documents/13 ICT TDP/L123Button.png"; sourceTree = "<group>"; };
-		22FB77AA173F40F6005B8353 /* L1234Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = L1234Button.png; path = "../../../../Users/panziyue/Documents/13 ICT TDP/L1234Button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +161,6 @@
 			children = (
 				22FB76EE173E7247005B8353 /* SSTOHAppDelegate.h */,
 				22FB76EF173E7247005B8353 /* SSTOHAppDelegate.m */,
-				22FB76F7173E7247005B8353 /* MainStoryboard.storyboard */,
 				22FB76FA173E7247005B8353 /* SSTOHFirstViewController.h */,
 				22FB76FB173E7247005B8353 /* SSTOHFirstViewController.m */,
 				22FB7701173E7247005B8353 /* SSTOHSecondViewController.h */,
@@ -260,10 +257,10 @@
 		22FB77A5173F3F7C005B8353 /* mapButtons */ = {
 			isa = PBXGroup;
 			children = (
-				22FB77A3173F3F78005B8353 /* L1Button.png */,
-				22FB77A6173F3F86005B8353 /* L12Button.png */,
-				22FB77A8173F3F8C005B8353 /* L123Button.png */,
-				22FB77AA173F40F6005B8353 /* L1234Button.png */,
+				22D8C3141740D240004D41A6 /* L1Button.png */,
+				22D8C3151740D240004D41A6 /* L12Button.png */,
+				22D8C3161740D240004D41A6 /* L123Button.png */,
+				22D8C3171740D240004D41A6 /* L1234Button.png */,
 			);
 			name = mapButtons;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 				22FB76F2173E7247005B8353 /* Default.png in Resources */,
 				22FB76F4173E7247005B8353 /* Default@2x.png in Resources */,
 				22FB76F6173E7247005B8353 /* Default-568h@2x.png in Resources */,
-				22FB76F9173E7247005B8353 /* MainStoryboard.storyboard in Resources */,
 				22FB7712173E73EF005B8353 /* maps2.png in Resources */,
 				22FB7718173E740B005B8353 /* bg.jpg in Resources */,
 				22FB771A173E7420005B8353 /* events.png in Resources */,
@@ -348,11 +344,11 @@
 				22FB7763173E9A8D005B8353 /* mapLevel4.png in Resources */,
 				22FB779D173F330C005B8353 /* Icon@2x.png in Resources */,
 				22FB779F173F3508005B8353 /* Icon.png in Resources */,
-				22FB77A4173F3F78005B8353 /* L1Button.png in Resources */,
-				22FB77A7173F3F86005B8353 /* L12Button.png in Resources */,
-				22FB77A9173F3F8C005B8353 /* L123Button.png in Resources */,
-				22FB77AB173F40F6005B8353 /* L1234Button.png in Resources */,
 				2298E56B17409233009C93F3 /* home.png in Resources */,
+				22D8C3181740D240004D41A6 /* L1Button.png in Resources */,
+				22D8C3191740D240004D41A6 /* L12Button.png in Resources */,
+				22D8C31A1740D240004D41A6 /* L123Button.png in Resources */,
+				22D8C31B1740D240004D41A6 /* L1234Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,14 +381,6 @@
 				22FB76E9173E7247005B8353 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		22FB76F7173E7247005B8353 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22FB76F8173E7247005B8353 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
