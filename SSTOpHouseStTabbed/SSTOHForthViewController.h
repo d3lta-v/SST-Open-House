@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSTOHForthViewController : UIViewController
+@interface SSTOHForthViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
+    UIImagePickerController* controller;
+    IBOutlet UIImageView* imageView;
+}
 
 @end

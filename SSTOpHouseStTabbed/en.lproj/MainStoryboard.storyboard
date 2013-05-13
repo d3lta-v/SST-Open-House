@@ -203,21 +203,44 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="boothUpperx2.png" translatesAutoresizingMaskIntoConstraints="NO" id="oZe-ar-sbX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="boothUpperx2.png" translatesAutoresizingMaskIntoConstraints="NO" id="oZe-ar-sbX"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-4e-NEU">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Take picture">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePicture:" destination="XHt-Jl-vS3" eventType="touchUpInside" id="U4w-DW-DqU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HnI-QN-iaW">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Yn6-xb-zcE"/>
+                                    <constraint firstAttribute="width" constant="240" id="Wfo-17-CJy"/>
+                                    <constraint firstAttribute="height" constant="302" id="kJ6-wk-HKC"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oZe-ar-sbX" firstAttribute="leading" secondItem="N53-FD-VPD" secondAttribute="leading" type="default" id="28X-Ai-LNl"/>
+                            <constraint firstItem="nsA-4e-NEU" firstAttribute="top" secondItem="oZe-ar-sbX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5bt-Eu-6rX"/>
+                            <constraint firstItem="HnI-QN-iaW" firstAttribute="centerX" secondItem="nsA-4e-NEU" secondAttribute="centerX" type="default" id="D34-fg-L73"/>
+                            <constraint firstItem="nsA-4e-NEU" firstAttribute="top" secondItem="N53-FD-VPD" secondAttribute="top" constant="58" id="HSe-VE-x5y"/>
                             <constraint firstItem="oZe-ar-sbX" firstAttribute="trailing" secondItem="N53-FD-VPD" secondAttribute="trailing" type="default" id="ZBg-CV-qMw"/>
+                            <constraint firstItem="HnI-QN-iaW" firstAttribute="top" secondItem="N53-FD-VPD" secondAttribute="top" constant="104" id="eXS-ju-ap2"/>
+                            <constraint firstItem="nsA-4e-NEU" firstAttribute="centerX" secondItem="oZe-ar-sbX" secondAttribute="centerX" type="default" id="eti-4D-Nvh"/>
                             <constraint firstItem="oZe-ar-sbX" firstAttribute="top" secondItem="N53-FD-VPD" secondAttribute="top" type="default" id="w3l-bK-o4J"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Photo Booth" image="camera.png" id="1by-hH-sf5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="HnI-QN-iaW" id="xm4-xW-XS2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XHt-Jl-vS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -246,7 +269,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hQj-MI-4LQ" kind="push" id="e9D-Bp-Boz"/>
+                                    <segue destination="hQj-MI-4LQ" kind="push" id="6gG-GT-Otm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lA8-eB-N0m">
@@ -258,6 +281,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fIH-uL-evr" kind="modal" modalTransitionStyle="flipHorizontal" id="RfH-AS-Byf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -315,6 +341,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cAh-q4-yD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1905" y="1627"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J3f-mj-Ap9">
+            <objects>
+                <viewController id="fIH-uL-evr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j28-dO-tZw">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XO9-Ax-ovY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1393" y="1055"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J7J-KY-hPU">
@@ -374,6 +415,43 @@
         <image name="mapsUpperx2.png" width="640" height="100"/>
         <image name="menuUpperx2.png" width="640" height="100"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SSTOHFifthViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHFifthViewController.h"/>
+        </class>
+        <class className="SSTOHFirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHFirstViewController.h"/>
+        </class>
+        <class className="SSTOHForthViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHForthViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="takePicture:"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="SSTOHSecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHSecondViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="load1:"/>
+                <relationship kind="action" name="load2:"/>
+                <relationship kind="action" name="load3:"/>
+                <relationship kind="action" name="loadMaps:"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="SSTOHTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHTableViewController.h"/>
+        </class>
+        <class className="SSTOHThirdViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHThirdViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -18,9 +18,33 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
+}
+
+- (IBAction)takePicture:(id)sender {
+    controller = [[UIImagePickerController alloc] init];
+    
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        controller.sourceType = UIImagePickerControllerSourceTypeCamera;
+        controller.cameraCaptureMode = UIImagePickerControllerCameraCaptureModePhoto;
+        controller.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+        controller.cameraFlashMode = UIImagePickerControllerCameraFlashModeAuto;
+        [controller takePicture];
+        [controller setDelegate:self];
+        [self presentViewController:controller animated:YES completion:nil];
+    }
+    else {
+        [[[UIAlertView alloc] initWithTitle:@"Camera not found" message:@"Please connect a camera." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+    }
+}
+
+-(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+    
+    [imageView setImage:image];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)viewDidLoad
