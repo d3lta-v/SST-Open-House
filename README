@@ -38,6 +38,8 @@ CAVEATS:
 UIScrollView in Maps does not have zoom feature
 Event and About UITableView as well as UIScrollViews are incomplete
 No Photo Booth functionality
+UITableViewControllers are incomplete and will crash the app upon loading of
+the 'About our School' view
 
 FINAL NOTE:
 Yes I wrote it in the format of a *nix command manual page

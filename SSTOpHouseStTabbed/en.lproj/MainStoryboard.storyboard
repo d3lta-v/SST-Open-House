@@ -264,37 +264,20 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vuw-fx-H8k"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNc-33-ld2">
-                                <attributedString key="attributedText">
-                                    <fragment content="Label">
-                                        <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name="Helvetica"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SNc-33-ld2" firstAttribute="top" secondItem="9LD-ca-DJC" secondAttribute="top" constant="14" id="0KA-bl-Mki"/>
                             <constraint firstItem="lNj-Ch-Is8" firstAttribute="top" secondItem="9LD-ca-DJC" secondAttribute="top" type="default" id="6cO-51-eIB"/>
                             <constraint firstItem="Vuw-fx-H8k" firstAttribute="trailing" secondItem="9LD-ca-DJC" secondAttribute="trailing" type="default" id="CeF-CZ-mKX"/>
                             <constraint firstItem="lNj-Ch-Is8" firstAttribute="trailing" secondItem="9LD-ca-DJC" secondAttribute="trailing" type="default" id="EOn-dD-RhU"/>
                             <constraint firstItem="Vuw-fx-H8k" firstAttribute="top" secondItem="9LD-ca-DJC" secondAttribute="top" constant="50" id="Uee-n6-vnC"/>
                             <constraint firstItem="Vuw-fx-H8k" firstAttribute="leading" secondItem="9LD-ca-DJC" secondAttribute="leading" type="default" id="fjv-Dz-rMh"/>
                             <constraint firstItem="Vuw-fx-H8k" firstAttribute="bottom" secondItem="9LD-ca-DJC" secondAttribute="bottom" type="default" id="gtf-gV-37P"/>
-                            <constraint firstAttribute="trailing" secondItem="SNc-33-ld2" secondAttribute="trailing" constant="32" id="s2N-Fv-BlG"/>
                             <constraint firstItem="lNj-Ch-Is8" firstAttribute="leading" secondItem="9LD-ca-DJC" secondAttribute="leading" type="default" id="tF3-g3-Sjc"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Events" image="events.png" id="xnK-hu-gev"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="label" destination="SNc-33-ld2" id="6ne-CX-o3O"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lkf-SQ-lyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
