@@ -374,39 +374,6 @@
         <image name="mapsUpperx2.png" width="640" height="100"/>
         <image name="menuUpperx2.png" width="640" height="100"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SSTOHFifthViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHFifthViewController.h"/>
-        </class>
-        <class className="SSTOHFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHFirstViewController.h"/>
-        </class>
-        <class className="SSTOHForthViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHForthViewController.h"/>
-        </class>
-        <class className="SSTOHSecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHSecondViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="load1:"/>
-                <relationship kind="action" name="load2:"/>
-                <relationship kind="action" name="load3:"/>
-                <relationship kind="action" name="loadMaps:"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="SSTOHTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHTableViewController.h"/>
-        </class>
-        <class className="SSTOHThirdViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSTOHThirdViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
