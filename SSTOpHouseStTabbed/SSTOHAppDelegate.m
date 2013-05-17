@@ -7,8 +7,13 @@
 //
 
 #import "SSTOHAppDelegate.h"
+#import "SSTOHSchInfo.h"
+#import "SSTOHTableViewController.h"
 
 @implementation SSTOHAppDelegate
+{
+    NSMutableArray *info;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

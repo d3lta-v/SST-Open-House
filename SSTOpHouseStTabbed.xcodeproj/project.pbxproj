@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		221D4F751740D2C900BB9C91 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221D4F731740D2C900BB9C91 /* MainStoryboard.storyboard */; };
 		221EBB3C173FC67700708EEE /* SSTOHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */; };
+		226A6A44174655C30072DB58 /* SST_header_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 226A6A43174655C30072DB58 /* SST_header_icon.png */; };
+		226A6A47174655F30072DB58 /* SSTOHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226A6A46174655F30072DB58 /* SSTOHTableViewController.m */; };
 		2298E56B17409233009C93F3 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2298E56A17409233009C93F3 /* home.png */; };
+		22AA1D1A17467ED600289D77 /* SSTOHSchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA1D1917467ED600289D77 /* SSTOHSchInfo.m */; };
 		22D8C3181740D240004D41A6 /* L1Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3141740D240004D41A6 /* L1Button.png */; };
 		22D8C3191740D240004D41A6 /* L12Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3151740D240004D41A6 /* L12Button.png */; };
 		22D8C31A1740D240004D41A6 /* L123Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3161740D240004D41A6 /* L123Button.png */; };
 		22D8C31B1740D240004D41A6 /* L1234Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3171740D240004D41A6 /* L1234Button.png */; };
-		22DC44591743508400C021A7 /* SSTOHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC44581743508400C021A7 /* SSTOHTableViewController.m */; };
 		22FB76E0173E7247005B8353 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76DF173E7247005B8353 /* UIKit.framework */; };
 		22FB76E2173E7247005B8353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E1173E7247005B8353 /* Foundation.framework */; };
 		22FB76E4173E7247005B8353 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E3173E7247005B8353 /* CoreGraphics.framework */; };
@@ -59,13 +61,16 @@
 		221D4F741740D2C900BB9C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		221EBB3A173FC67700708EEE /* SSTOHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHThirdViewController.h; sourceTree = "<group>"; };
 		221EBB3B173FC67700708EEE /* SSTOHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHThirdViewController.m; sourceTree = "<group>"; };
+		226A6A43174655C30072DB58 /* SST_header_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SST_header_icon.png; sourceTree = "<group>"; };
+		226A6A45174655F30072DB58 /* SSTOHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHTableViewController.h; sourceTree = "<group>"; };
+		226A6A46174655F30072DB58 /* SSTOHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHTableViewController.m; sourceTree = "<group>"; };
 		2298E56A17409233009C93F3 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		22AA1D1817467ED600289D77 /* SSTOHSchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHSchInfo.h; sourceTree = "<group>"; };
+		22AA1D1917467ED600289D77 /* SSTOHSchInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHSchInfo.m; sourceTree = "<group>"; };
 		22D8C3141740D240004D41A6 /* L1Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1Button.png; sourceTree = "<group>"; };
 		22D8C3151740D240004D41A6 /* L12Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L12Button.png; sourceTree = "<group>"; };
 		22D8C3161740D240004D41A6 /* L123Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L123Button.png; sourceTree = "<group>"; };
 		22D8C3171740D240004D41A6 /* L1234Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1234Button.png; sourceTree = "<group>"; };
-		22DC44571743508400C021A7 /* SSTOHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHTableViewController.h; sourceTree = "<group>"; };
-		22DC44581743508400C021A7 /* SSTOHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHTableViewController.m; sourceTree = "<group>"; };
 		22FB76DC173E7247005B8353 /* Open House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB76DF173E7247005B8353 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FB76E1173E7247005B8353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -178,8 +183,10 @@
 				22FB7740173E7C64005B8353 /* SSTOHAboutViewController.m */,
 				22FB77A0173F3964005B8353 /* SSTOHCreatorsViewController.h */,
 				22FB77A1173F3965005B8353 /* SSTOHCreatorsViewController.m */,
-				22DC44571743508400C021A7 /* SSTOHTableViewController.h */,
-				22DC44581743508400C021A7 /* SSTOHTableViewController.m */,
+				226A6A45174655F30072DB58 /* SSTOHTableViewController.h */,
+				226A6A46174655F30072DB58 /* SSTOHTableViewController.m */,
+				22AA1D1817467ED600289D77 /* SSTOHSchInfo.h */,
+				22AA1D1917467ED600289D77 /* SSTOHSchInfo.m */,
 				22FB76E6173E7247005B8353 /* Supporting Files */,
 			);
 			path = SSTOpHouseStTabbed;
@@ -188,6 +195,7 @@
 		22FB76E6173E7247005B8353 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				226A6A43174655C30072DB58 /* SST_header_icon.png */,
 				22FB77A5173F3F7C005B8353 /* mapButtons */,
 				22FB779E173F3508005B8353 /* Icon.png */,
 				22FB779C173F330C005B8353 /* Icon@2x.png */,
@@ -353,6 +361,7 @@
 				22D8C31A1740D240004D41A6 /* L123Button.png in Resources */,
 				22D8C31B1740D240004D41A6 /* L1234Button.png in Resources */,
 				221D4F751740D2C900BB9C91 /* MainStoryboard.storyboard in Resources */,
+				226A6A44174655C30072DB58 /* SST_header_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +381,8 @@
 				22FB7741173E7C64005B8353 /* SSTOHAboutViewController.m in Sources */,
 				22FB77A2173F3965005B8353 /* SSTOHCreatorsViewController.m in Sources */,
 				221EBB3C173FC67700708EEE /* SSTOHThirdViewController.m in Sources */,
-				22DC44591743508400C021A7 /* SSTOHTableViewController.m in Sources */,
+				226A6A47174655F30072DB58 /* SSTOHTableViewController.m in Sources */,
+				22AA1D1A17467ED600289D77 /* SSTOHSchInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
