@@ -36,7 +36,7 @@
         [self presentViewController:controller animated:YES completion:nil];
     }
     else {
-        [[[UIAlertView alloc] initWithTitle:@"Camera not found" message:@"Please use an iDevice with a camera" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+        [[[UIAlertView alloc] initWithTitle:@"404-Camera not found" message:@"Please use an iDevice with a camera" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
     }
 }
 

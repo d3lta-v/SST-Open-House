@@ -14,6 +14,7 @@
 		22D8C3191740D240004D41A6 /* L12Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3151740D240004D41A6 /* L12Button.png */; };
 		22D8C31A1740D240004D41A6 /* L123Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3161740D240004D41A6 /* L123Button.png */; };
 		22D8C31B1740D240004D41A6 /* L1234Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8C3171740D240004D41A6 /* L1234Button.png */; };
+		22DC44591743508400C021A7 /* SSTOHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC44581743508400C021A7 /* SSTOHTableViewController.m */; };
 		22FB76E0173E7247005B8353 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76DF173E7247005B8353 /* UIKit.framework */; };
 		22FB76E2173E7247005B8353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E1173E7247005B8353 /* Foundation.framework */; };
 		22FB76E4173E7247005B8353 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB76E3173E7247005B8353 /* CoreGraphics.framework */; };
@@ -46,7 +47,6 @@
 		22FB7751173E88E6005B8353 /* mapsUpperx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7750173E88E6005B8353 /* mapsUpperx2.png */; };
 		22FB7753173E8914005B8353 /* boothUpperx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7752173E8914005B8353 /* boothUpperx2.png */; };
 		22FB7755173E8946005B8353 /* feedbackUpperx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7754173E8946005B8353 /* feedbackUpperx2.png */; };
-		22FB775C173E964F005B8353 /* SSTOHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB775B173E964F005B8353 /* SSTOHTableViewController.m */; };
 		22FB775F173E9A7F005B8353 /* mapLevel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB775E173E9A7F005B8353 /* mapLevel1.png */; };
 		22FB7761173E9A83005B8353 /* mapLevel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7760173E9A83005B8353 /* mapLevel2.png */; };
 		22FB7763173E9A8D005B8353 /* mapLevel4.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FB7762173E9A8D005B8353 /* mapLevel4.png */; };
@@ -64,6 +64,8 @@
 		22D8C3151740D240004D41A6 /* L12Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L12Button.png; sourceTree = "<group>"; };
 		22D8C3161740D240004D41A6 /* L123Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L123Button.png; sourceTree = "<group>"; };
 		22D8C3171740D240004D41A6 /* L1234Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1234Button.png; sourceTree = "<group>"; };
+		22DC44571743508400C021A7 /* SSTOHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHTableViewController.h; sourceTree = "<group>"; };
+		22DC44581743508400C021A7 /* SSTOHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHTableViewController.m; sourceTree = "<group>"; };
 		22FB76DC173E7247005B8353 /* Open House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB76DF173E7247005B8353 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FB76E1173E7247005B8353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,8 +108,6 @@
 		22FB7752173E8914005B8353 /* boothUpperx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boothUpperx2.png; sourceTree = "<group>"; };
 		22FB7754173E8946005B8353 /* feedbackUpperx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedbackUpperx2.png; sourceTree = "<group>"; };
 		22FB7756173E9034005B8353 /* Ethnocentric.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ethnocentric.ttf; sourceTree = "<group>"; };
-		22FB775A173E964F005B8353 /* SSTOHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTOHTableViewController.h; sourceTree = "<group>"; };
-		22FB775B173E964F005B8353 /* SSTOHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTOHTableViewController.m; sourceTree = "<group>"; };
 		22FB775E173E9A7F005B8353 /* mapLevel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapLevel1.png; sourceTree = "<group>"; };
 		22FB7760173E9A83005B8353 /* mapLevel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapLevel2.png; sourceTree = "<group>"; };
 		22FB7762173E9A8D005B8353 /* mapLevel4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapLevel4.png; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 				22FB7740173E7C64005B8353 /* SSTOHAboutViewController.m */,
 				22FB77A0173F3964005B8353 /* SSTOHCreatorsViewController.h */,
 				22FB77A1173F3965005B8353 /* SSTOHCreatorsViewController.m */,
-				22FB775A173E964F005B8353 /* SSTOHTableViewController.h */,
-				22FB775B173E964F005B8353 /* SSTOHTableViewController.m */,
+				22DC44571743508400C021A7 /* SSTOHTableViewController.h */,
+				22DC44581743508400C021A7 /* SSTOHTableViewController.m */,
 				22FB76E6173E7247005B8353 /* Supporting Files */,
 			);
 			path = SSTOpHouseStTabbed;
@@ -370,9 +370,9 @@
 				22FB7738173E7A88005B8353 /* SSTOHForthViewController.m in Sources */,
 				22FB773B173E7A8F005B8353 /* SSTOHFifthViewController.m in Sources */,
 				22FB7741173E7C64005B8353 /* SSTOHAboutViewController.m in Sources */,
-				22FB775C173E964F005B8353 /* SSTOHTableViewController.m in Sources */,
 				22FB77A2173F3965005B8353 /* SSTOHCreatorsViewController.m in Sources */,
 				221EBB3C173FC67700708EEE /* SSTOHThirdViewController.m in Sources */,
+				22DC44591743508400C021A7 /* SSTOHTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

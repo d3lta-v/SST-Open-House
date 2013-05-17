@@ -9,21 +9,21 @@ SYNOPSIS:
 The App contains multiple sections, which in this case include:
 
 1. Welcome Screen
-	* About Button: About the Creators and About the School contained inside a view
+	* About Button: About the Creators contained
 2. Maps
 	* Map of Level 1
 	* Map of Level 2
 	* Map of Level 4
 	* Opens Safari with the Google Maps web app to the location of the School
 3. Events list (Incomplete)
-4. Photo Booth (Incomplete due to lack of resources and a coder)
+4. Photo Booth (Incomplete)
 	* Picture Taking
 	* Open from Camera Roll and edit
-5. Feedback (Partially complete)
+5. Info (About the school, in form of a UITableView)
 
 
 AVAILABILITY:
-The App is only usable on the UNIX Darwin ARM iOS platform
+The App is only usable on the UNIX Darwin ARMv7 iOS platform
 Devices compatible include the iPhone 3GS and up, iPad 1 and up as well as iPod Touch 3rd Gen and up
 
 DESCRIPTION:
@@ -39,9 +39,7 @@ Incognito Dev is expected to join the development
 CAVEATS:
 UIScrollView in Maps does not have zoom feature
 Event and About UITableView as well as UIScrollViews are incomplete
-No Photo Booth functionality
-UITableViewControllers are incomplete and will crash the app upon loading of
-the 'About our School' view
+Partial Photo Booth functionality
 
 FINAL NOTE:
 Yes I wrote it in the format of a UNIX command manual page
