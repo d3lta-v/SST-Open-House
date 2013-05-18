@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSTOHForthViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
-    UIImagePickerController* controller;
-    IBOutlet UIImageView* imageView;
+@interface SSTOHForthViewController : UIViewController <UIWebViewDelegate> {
+    IBOutlet UIWebView *feedback;
+    NSURL *urlLocation;
+    IBOutlet UIActivityIndicatorView *activity;
 }
 
 @end

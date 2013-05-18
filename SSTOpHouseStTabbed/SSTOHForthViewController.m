@@ -21,7 +21,7 @@
     }
     return self;
 }
-
+/* These are old code for taking photos
 - (IBAction)takePicture:(id)sender {
     controller = [[UIImagePickerController alloc] init];
     
@@ -46,7 +46,7 @@
     [imageView setImage:image];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
+*/
 - (void)viewDidLoad
 {
     [super viewDidLoad];
